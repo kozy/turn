@@ -131,7 +131,7 @@ module Turn
     #         fail is not 1
     #       @ test/test_runners.rb:46:in `test_autorun_with_trace'
     #         bin/turn:4:in `<main>'
-    def prettify(message=nil, raised)
+    def prettify(message=nil, raised=nil)
       # Get message from raised, if not given
       message ||= raised.message
 
